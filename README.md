@@ -1,11 +1,17 @@
-### LXD - Installation: 
+# LXD - Installation: 
 
+## Get ready your **CENTOS** vm 
+
+~~~
 yum update -y 
 yum install epel-release.noarch -y 
 yum update -y 
 yum clean all
+~~~
 
+~~~
 cat /etc/redhat-release 
+~~~
 
 yum install yum-plugin-copr
 yum copr enable ngompa/snapcore-el7 -y
