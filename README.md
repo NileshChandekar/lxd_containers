@@ -1,7 +1,7 @@
 # LXD - Installation: 
 
 ## Get ready your **CENTOS** vm 
-
+### Once it is ready loged into the VM [ssh root@centos_VM]
 ~~~
 yum update -y 
 yum install epel-release.noarch -y 
@@ -50,7 +50,20 @@ lxc image list images: | grep -i "Centos 7 amd64"
 
 ~~~
 lxc launch images:centos/7/amd64 kmaster
+~~~
+
+~~~
 lxc list
+~~~
+
+~~~
+[root@haproxy ~]# lxc list
++---------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+|  NAME   |  STATE  |         IPV4          |                     IPV6                      |   TYPE    | SNAPSHOTS |
++---------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+| kmaster | RUNNING | 10.223.187.191 (eth0) | fd42:66b0:5417:7ad2:216:3eff:fe5e:ff25 (eth0) | CONTAINER | 0         |
++---------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+[root@haproxy ~]# 
 ~~~
 
 ~~~
@@ -93,6 +106,7 @@ Resources:
       Packets sent: 37
 [root@haproxy ~]# 
 ~~~
+
 
 
 
