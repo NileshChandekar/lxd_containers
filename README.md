@@ -348,8 +348,12 @@ ad44b713c8cc49ad99b736fc99175679
 
 * This will ^^ take some time to get it install, depends on the speed of your Internet. 
 
+* Once that is done, you will get window ^^ 
+
 ![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01114.png)
 
-* Once that is done, you will get window ^^ 
+* Next Window [Instance Configuration]
+
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01115.png)
 
 
