@@ -327,7 +327,8 @@ sudo iptables -t nat -A PREROUTING -p tcp -i $iface --dport $D_PORT -j DNAT --to
   
 ### Lets get the access to **JENKINS**
 
-![Image ipa](https://github.com/NileshChandekar/kubernetes_101/blob/master/images/2.png)
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01111.png)
+
 
 
 
