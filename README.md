@@ -325,6 +325,10 @@ sudo iptables -t nat -A PREROUTING -p tcp -i $iface --dport $D_PORT -j DNAT --to
 [root@lxd-demo-1 ~]# 
 ~~~
   
+### Lets get the access to **JENKINS**
+
+![Image ipa](https://github.com/NileshChandekar/kubernetes_101/blob/master/images/2.png)
+
 
 
 
