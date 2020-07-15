@@ -356,4 +356,11 @@ ad44b713c8cc49ad99b736fc99175679
 
 ![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01115.png)
 
+* Click Save anf Finish
+
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01116.png)
+
+* Start Using Jenkins
+
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01117.png)
 
