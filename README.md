@@ -330,11 +330,26 @@ sudo iptables -t nat -A PREROUTING -p tcp -i $iface --dport $D_PORT -j DNAT --to
 ![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01111.png)
 
 
+* You will get the **CREDENTIALS** here: 
 
+~~~
+[root@jenkins ~]# cat /var/lib/jenkins/secrets/initialAdminPassword
+ad44b713c8cc49ad99b736fc99175679
+[root@jenkins ~]# 
+~~~
 
+* Once you enter the credentials, you will get the below window, 
 
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01112.png)
 
+* I am just going with the defauls [Install Suggested Plugins]
 
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01113.png)
 
+* This will ^^ take some time to get it install, depends on the speed of your Internet. 
+
+![Image ipa](https://github.com/NileshChandekar/lxd_containers/blob/master/images/01114.png)
+
+* Once that is done, you will get window ^^ 
 
 
